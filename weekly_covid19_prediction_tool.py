@@ -1,5 +1,3 @@
-pip install tensorflow
-pip install keras
 import streamlit as st
 import numpy as np
 import tensorflow as tf
