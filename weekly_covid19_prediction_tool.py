@@ -1,11 +1,12 @@
 import streamlit as st
 import numpy as np
-import tensorflow as tf
+import keras
+#import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import LSTM, Dense, Bidirectional
 
 # Load the saved model
-model = tf.keras.models.load_model('my_usa_cv19_model.keras')
+model = keras.models.load_model('my_usa_cv19_model.keras')
 
 # Set the background color of the app to dark
 # st.markdown(
