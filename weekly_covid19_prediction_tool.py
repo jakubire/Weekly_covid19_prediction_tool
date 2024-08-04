@@ -8,17 +8,17 @@ from keras.layers import LSTM, Dense, Bidirectional
 model = tf.keras.models.load_model('my_usa_cv19_model.keras')
 
 # Set the background color of the app to dark
-st.markdown(
-    """
-    <style>
-    .main {
-        background-color: #1E1E1E;
-        color: #FFFFFF;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .main {
+#         background-color: #1E1E1E;
+#         color: #FFFFFF;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
 
 # Function to split the sequence
 def split_sequence(sequence, n_steps):
@@ -78,22 +78,22 @@ if st.button('Predict'):
     st.write(f'Predicted Active Cases: {prediction[0][2]}')
 
 
-st.markdown(
-    """
-    <style>
-    .css-18e3th9 {
-        background-color: #1E1E1E;
-        color: #FFFFFF;
-    }
-    .css-1d391kg {
-        background-color: #1E1E1E;
-        color: #FFFFFF;
-    }
-    .css-1l02zno {
-        background-color: #1E1E1E;
-        color: #FFFFFF;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#     """
+#     <style>
+#     .css-18e3th9 {
+#         background-color: #1E1E1E;
+#         color: #FFFFFF;
+#     }
+#     .css-1d391kg {
+#         background-color: #1E1E1E;
+#         color: #FFFFFF;
+#     }
+#     .css-1l02zno {
+#         background-color: #1E1E1E;
+#         color: #FFFFFF;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
