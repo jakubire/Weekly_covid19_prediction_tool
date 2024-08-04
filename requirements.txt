@@ -1,8 +1,2 @@
 streamlit
-numpy
-pandas
-tensorflow==2.17.0
-keras==2.10.0
-protobuf
-h5py>=3.10.0
-scipy
+keras
