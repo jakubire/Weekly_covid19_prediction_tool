@@ -1,6 +1,6 @@
-streamlit
-numpy
-matplotlib.pyplot
-seaborn
-tensorflow
-keras
+streamlit==1.26.0
+numpy==1.23.5
+tensorflow==2.12.0
+keras==2.12.0
+protobuf==3.20.*
+h5py==3.8.0
